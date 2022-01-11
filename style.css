@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    transition: all .5s linear;
+}
+
+body {
+    background-image: url("allbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.main h1 {
+    font-family: 'Corinthia', cursive;
+    font-size: 4rem;
+    color: #000;
+}
+
+.main .todo_input {
+    font-size: 1.1rem;
+    border-radius: .8rem;
+    padding: .2rem .7rem;
+}
+
+.main .todo_button {
+    font-size: 1.1rem;
+    border-radius: .8rem;
+    padding: .2rem .4rem;
+    cursor: pointer;
+}
+
+.main .todo_button:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.main .todo_filter {
+    font-size: 1rem;
+    border-radius: .8rem;
+    padding: .2rem .7rem;
+}
+
+
+
+.todo_div {
+    margin: .3rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    border-bottom: 1px black solid;
+    background-color:rgba(0, 0, 0, 0.185);
+    color: #fff;
+    border-radius: .5rem;
+}
+
+.fa-check {
+    color: rgb(0, 230, 64);
+}
+
+.fa-check:hover {
+    opacity: .3;
+}
+
+.fa-times:hover {
+    opacity: .3;
+}
+
+.fa-times {
+    color: rgb(242, 38, 19);
+}
+
+.delete {
+    background-color: rebeccapurple;
+    transform: rotate(10000deg);
+  
+
+}
+
+.completed {
+    color: black;
+    text-decoration: line-through;
+}
